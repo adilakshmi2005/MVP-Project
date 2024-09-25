@@ -1,0 +1,15 @@
+{
+  "name": "mvp-project",
+  "version": "1.0.0",
+  "description": "This project is a platform that allows users to submit information about their unused or worn-out apparel for proper disposal, donation, or recycling. It helps reduce waste by promoting eco-friendly solutions for managing old clothing.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
