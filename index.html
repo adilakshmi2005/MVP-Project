@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apparel Submission Portal</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            width: 400px;
+            max-width: 100%;
+        }
+
+        .form-container h2 {
+            text-align: center;
+            color: #333333;
+            margin-bottom: 30px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .form-container label {
+            display: block;
+            color: #555555;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        .form-container select, .form-container input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #dddddd;
+            border-radius: 6px;
+            font-size: 14px;
+            color: #333333;
+        }
+
+        .form-container select:focus, .form-container input:focus {
+            border-color: #007bff;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+        }
+
+        .form-container button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .form-container button:hover {
+            background-color: #0056b3;
+        }
+
+        .form-footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #777777;
+        }
+
+        .form-footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .form-footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Apparel Submission</h2>
+
+        <form id="apparel-form">
+            <label for="type">Type of Apparel:</label>
+            <select id="type" name="type" required>
+                <option value="">Select Apparel Type</option>
+                <option value="shirt">Shirt</option>
+                <option value="pants">Pants</option>
+                <option value="jacket">Jacket</option>
+                <option value="shoes">Shoes</option>
+            </select>
+
+            <label for="condition">Condition:</label>
+            <select id="condition" name="condition" required>
+                <option value="">Select Condition</option>
+                <option value="worn-out">Worn-Out</option>
+                <option value="lightly-used">Lightly Used</option>
+                <option value="new">New</option>
+            </select>
+
+            <label for="action">Preferred Action:</label>
+            <select id="action" name="action" required>
+                <option value="">Select Action</option>
+                <option value="donate">Donate</option>
+                <option value="recycle">Recycle</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="form-footer">
+            &copy; 2024 Apparel Recycling Initiative | <a href="#">Privacy Policy</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
