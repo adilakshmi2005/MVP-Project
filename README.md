@@ -11,7 +11,22 @@ This project is a platform that allows users to submit information about their u
 ## Installation
 To install and run this project locally, follow these steps:
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/adilakshmi2005/MVP-Project.git
-   cd MVP-Project
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/adilakshmi2005/MVP-Project.git
+    cd MVP-Project
+    ```
+
+2. Navigate to the backend folder and install dependencies:
+    ```bash
+    cd backend
+    npm install
+    ```
+
+3. Start the server:
+    ```bash
+    node server.js
+    ```
+
+4. Open your browser and go to `http://localhost:3000` to see the app running.
+
