@@ -30,4 +30,4 @@ To install and run this project locally, follow these steps:
 
 4. Open your browser and go to `http://localhost:3000` to see the app running.
 ## Project Demo
-You can view the video demo of the project here: (https://drive.google.com/file/d/1RrVMkhVmp4t4NoQooWhyo8HbPL2tCuf3/view?usp=sharing)
+You can view the video demo of the project here: (https://drive.google.com/file/d/1JZJ0UaS8Uc04IyDFUiWvoTE3yj69_lNs/view?usp=sharing)
